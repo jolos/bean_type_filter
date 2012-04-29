@@ -1,0 +1,11 @@
+name = Bean Type Views Filter
+description = a views filter for filtering Blocks on type
+dependencies[] = entity
+dependencies[] = views
+core = 7.x
+
+
+
+; Views handlers
+files[] = includes/views/handlers/bean_handler_filter_bean_type.inc
+
